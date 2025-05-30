@@ -42,16 +42,108 @@ The system includes the following core tables:
 
 Here are some advanced queries included in the project:
 
-1. *Top 10 Most Borrowed Books*
-2. *Books with Zero Issues (Idle Stock)*
-3. *Revenue by Book Category*
-4. *Stock Availability Forecast*
-5. *Overdue Books (30+ days)*
-6. *First-Time vs. Returning Members*
-7. *Most Active Days of the Week*
-8. *Most Frequent Borrowers*
-9. *Book Demand vs Availability*
-10. *Branch-wise Issue Comparison*
+
+1."Create Summary Tables: Used CTAS to generate new tables based on query results - each book and total book_issued_cnt"
+
+
+![](Image[Output]/Email.png)
+
+
+2."Update an Existing Member's Address"
+
+![](Image[Output]/Cheapest_Rental.png)
+
+
+3. "Delete a Record from the Issued Status Table"
+
+
+![](Image[Output]/Total_No_Of_Movies.png)
+
+
+4. " Retrieve All Books Issued by a Specific Employee -- Objective: Select all books issued by the employee with emp_id = 'E101'."
+
+
+![](Image[Output]/Rating_wise_count.png)
+
+
+5. "List Members Who Have Issued More Than One Book -- Objective: Use GROUP BY to find members who have issued more than one book."
+
+
+![](Image[Output]/Total_Films.png)
+
+6. "Create Summary Tables: Used CTAS to generate new tables based on query results - each book and total book_issued_cnt**"
+
+
+![](Image[Output]/TLC.png)
+
+7. "Retrieve All Books in a Specific Category?"
+
+
+![](Image[Output]/Popularity.png)
+
+8. "Find Total Rental Income by Category?"
+
+
+![](Image[Output]/Revenue.png)
+
+9. " List Employees with Their Branch Manager's Name and their branch details"
+
+
+![](Image[Output]/Most_Revenue.png)
+
+10. " Create a Table of Books with Rental Price Above a Certain Threshold 7USD?"
+
+
+![](Image[Output]/Rentals_permonth.png)
+
+11. "Retrieve the List of Books Not Yet Returned?"
+
+
+![](Image[Output]/Reward_via_phone.png)
+
+12. "Identify Members with Overdue Books
+Write a query to identify members who have overdue books (assume a 30-day return period). 
+Display the member's_id, member's name, book title, issue date, and days overdue.?"
+
+
+![](Image[Output]/First_100_Customer_Payment.png)
+
+13. " Update Book Status on Return?"
+
+![](Image[Output]/JAN_06_2006.png)
+
+14. " Branch Performance Report?"
+
+
+![](Image[Output]/Payments_Over_$5.png)
+
+15. "Create a Table of Active Members?"
+
+
+![](Image[Output]/BTS.png)
+
+16. "Find Employees with the Most Book Issues Processed?"
+
+![](Image[Output]/Most_Spendings.png)
+
+17. "Total Books Issued per Member?"
+
+
+![](Image[Output]/Sliced_By_Rental_Rate.png)
+
+18. " Books Issued per Branch?"
+
+![](Image[Output]/Cheapest_Rental.png)
+
+19. "Monthly Book Issue Summary?"
+
+
+![](Image[Output]/Min_Max_Avg.png)
+
+20. "Top 10 Most Issued Books?"
+
+
+![](Image[Output]/For_Recommedation.png)
 
 👉 Full list of *20+ analytical queries* available in [LIBRARY_MANAGEMENT_CODE.sql](library_management_code.sql)
 
