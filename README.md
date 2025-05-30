@@ -34,7 +34,7 @@ The system includes the following core tables:
 
 ---
 ## 🧩 Schema
-![Music Store Schema](LIBRARY_MANAGEMENT_SCHEMA.png)
+![Music Store Schema](library_management_schema.png)
 
 ---
 
